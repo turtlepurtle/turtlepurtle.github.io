@@ -63,10 +63,10 @@ function YES() {
     var resultScreen = document.getElementById("JordoHappyPath");
     resultScreen.style.display = "block";
 
-    var audio = document.getElementById("yay");
-    audio.volume = 0.02;
-    if (audio.paused) {
-        audio.play();
+    var yayaudio = document.getElementById("yay");
+    yayaudio.volume = 0.02;
+    if (yayaudio.paused) {
+        yayaudio.play();
     }
 }
 
